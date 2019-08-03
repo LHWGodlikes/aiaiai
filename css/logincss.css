@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background:url("../img/bg2.jpeg") no-repeat;
+    background-size: cover;
+}
+.login{
+    width: 30%;
+    height: 200px;
+    border: 0px solid #333333;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.loginusr,.loginpsw{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+input[type=text],input[type=password]{
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    vertical-align: center;
+    border: 0;
+}
+input:focus{
+    outline: none;
+    border-bottom: 1px solid deepskyblue;
+}
+input[type=submit]{
+    width: 90%;
+    height: 50px;
+    border: 0px;
+    border-radius:20px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: pink;
+}
+input::-ms-input-placeholder{text-align: center;}
+input::-webkit-input-placeholder{text-align: center;}
