@@ -4,7 +4,7 @@
 }
 @-webkit-keyframes myfirst
 	{
-		from {width: 30px;height: 30px;}
+		from {width: 20px;height: 20px;}
 		to {width: 150px;height: 150px;}
 	}
 /* img{
@@ -13,8 +13,8 @@
 } */
 table tr td{
     display: inline-flex;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 
 }
 td{
