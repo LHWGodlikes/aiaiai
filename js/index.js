@@ -22,7 +22,6 @@ window.onload = function () {
                         divlist[i] = td;
                         if (j==left+6+1){
                             img = document.createElement("img");
-                            img.src = "img/8.jpg";
                             var dd = document.createElement("div");
                             dd.style.width = "200px";
                             dd.style.height = "200px";
@@ -31,17 +30,16 @@ window.onload = function () {
                             var ii = document.createElement("img");
                             ii.style.width = "200px";
                             ii.style.height = "200px";
-                            ii.src = "img/8.jpg";
                             dd.appendChild(ii);
-                            td.appendChild(img);
+                            // td.appendChild(img);
                             td.appendChild(dd);
 
-                            td.addEventListener("mouseenter",function () {
-                               dd.style.display = "block"
-                            });
-                            td.addEventListener("mouseleave",function () {
-                                dd.style.display = "none";
-                            });
+                            // td.addEventListener("mouseenter",function () {
+                            //    dd.style.display = "block"
+                            // });
+                            // td.addEventListener("mouseleave",function () {
+                            //     dd.style.display = "none";
+                            // });
                         }
 /*                        if (j==left+6+2){
                             img = document.createElement("img");
@@ -200,7 +198,7 @@ window.onload = function () {
        }
        console.log(document.getElementsByClassName("bgimg"))
        for(var i=0;i<=413;i++){
-        document.getElementsByClassName("bgimg")[i].innerHTML=`'<img src="img/${Math.ceil(Math.random()*11)}.jpg" />'`
+        document.getElementsByClassName("bgimg")[i].innerHTML=`'<img src="img/1 (${Math.ceil(Math.random()*60)}).jpg" />'`
        }
      
     }
